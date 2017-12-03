@@ -7,13 +7,10 @@ using Linq.Data.Interfaces;
 
 namespace Linq {
     class Program {
-        private IDataProvider _dataProvider;
-        public Program()
-        {
-            _dataProvider = new DataProvider();
-        }
+        private static IDataProvider _dataProvider;
         static void Main (string[] args)
         {
+            _dataProvider = new DataProvider();
             Console.ReadKey();
         }
 
