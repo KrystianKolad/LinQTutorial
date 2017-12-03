@@ -7,8 +7,7 @@ namespace Linq {
     class Program {
         static void Main (string[] args)
         {
-            PLinqExample(100000000);
-            PLinqExample(1000000);
+
             Console.ReadKey();
         }
 
