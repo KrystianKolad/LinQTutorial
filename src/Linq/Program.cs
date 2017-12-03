@@ -2,12 +2,18 @@
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
+using Linq.Data;
+using Linq.Data.Interfaces;
 
 namespace Linq {
     class Program {
+        private IDataProvider _dataProvider;
+        public Program()
+        {
+            _dataProvider = new DataProvider();
+        }
         static void Main (string[] args)
         {
-
             Console.ReadKey();
         }
 
