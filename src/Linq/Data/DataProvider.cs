@@ -24,7 +24,7 @@ namespace Linq.Data
                 new Animal("Long-tailed jaeger","Stercorarius longicausus","Aves",15743),
                 new Animal("Wallaroo, common","Macropus robustus","Mammal",18023),
                 new Animal("Spur-winged goose","Plectopterus gambensis","Aves",11732),
-                new Animal("Whale, southern right","Eubalaena australis","Mammal",0),
+                new Animal("Whale, southern right","Eubalaena australis","Mammal",12301),
                 new Animal("Heron, little","Butorides striatus","Aves",15291),
                 new Animal("Cougar","Felis concolor","Mammal",17560)
             };
